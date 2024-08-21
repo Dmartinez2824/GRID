@@ -7,6 +7,7 @@ html{
 }
 body{
  background: #333;
+ margin: 0;
 }
 .container{
     margin: 0 auto;
@@ -24,6 +25,14 @@ a{
 .menu li *{
     text-decoration: none;
     color: aliceblue;
+    
+}
+.menu li *:hover{
+color: #cf3b3b;
+}
+.menu{
+    list-style: none;
+    text-align: center;
 }
 
 .item{
@@ -33,4 +42,7 @@ a{
     color: aliceblue;
     border-radius: 6px ;
 }
+
+
+
 

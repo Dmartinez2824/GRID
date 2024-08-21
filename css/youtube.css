@@ -1,0 +1,43 @@
+
+.bloque{
+    width: 100%;
+    height: 400vh;
+    background-color: cadetblue;
+    border: solid 1px aliceblue;
+    display: grid;
+
+    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-rows: 100px 1.8fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar main";
+}
+.header{
+    grid-area: header;
+    background: #c2c2c2;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    color: red;
+
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: #c2c2c2;
+}
+
+.main{
+    grid-area: main;
+    background: #c2c2c2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 300px);
+}
+
+.videos{
+
+text-align: center;
+
+}
+
