@@ -1,0 +1,39 @@
+@import url(style.css);
+
+
+.grid-aling{
+    display: grid;
+
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 200px);
+
+    justify-items: stretch;
+    /* justify-items: center ;
+    justify-items: end; */
+    /* align-items: center;
+    align-items: end; */
+    align-items: stretch;
+    /* align-items: center; */
+    /*shift + alt + tecla abajo = para duplicar linea*/
+
+    /*justify-content*/
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /*alingn-content*/
+    align-content: center;
+    align-content: end;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+
+
+}
+
+.grid-aling  {
+    background: #000;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
